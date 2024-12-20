@@ -23,3 +23,9 @@ pip install -r requirements.txt
 ```
 
 ## Refer Images
+
+![Screenshot 2024-12-20 212317](https://github.com/user-attachments/assets/3435e5e4-98ad-4cf2-807e-8e9d25074fae)
+
+![Screenshot 2024-12-20 212357](https://github.com/user-attachments/assets/592f5ff2-022d-408e-9a29-8649335986f3)
+
+
