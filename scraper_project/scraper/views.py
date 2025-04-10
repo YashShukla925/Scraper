@@ -11,7 +11,8 @@ import json
 nlp = spacy.load("en_core_web_sm")
 
 # Configure Google Gemini API
-genai.configure(api_key="AIzaSyAzCh2rhA-soPlPYHProY_OEC-WpE2aXY4")  # Replace with your API key
+
+genai.configure(api_key="Your Api KEY")  # Replace with your API key
 
 def home(request):
     return render(request, 'scraper/home.html', {})
@@ -41,7 +42,7 @@ json
 
     """
 
-    response = genai.GenerativeModel("gemini-pro").generate_content(prompt)
+    response = genai.GenerativeModel("gemini-1.5-pro").generate_content(prompt)
 
     try:
         # Parse response text and extract valid JSON
